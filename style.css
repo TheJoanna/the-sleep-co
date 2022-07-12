@@ -1,0 +1,78 @@
+/* 
+    Colors
+    Yellow: #FFBE00
+    Navy:  #192B37 
+    Font: catamaran (200, 400, 500, 800)
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* temporary styles for sturctual html */
+
+section {
+    border: 1px solid rgb(240,240,240);
+}
+
+body { 
+    font-family: "Catamaran", sans-serif;
+    color: #192B37;
+}
+
+ /* Image Styles */
+ .bg-image {
+    background-image: url('/images/the-sleep-co-4.jpg');
+    background-size: cover;
+    min-height: 10rem;
+ }
+
+
+ /* Universal styles & utility classes */
+ 
+ .padded {padding: 5%; }
+ .padded-sm {padding: 1rem; }
+
+ .bg-dark { 
+    background-color: #192B37; 
+    color: white;
+}
+
+.tall-80        { min-height: 80vh;   }
+.tall-90        { min-height: 90vh;   }
+.tall-100       { min-height: 100vh;  }
+
+/* Typography Styles */
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.featured-text  { color: #FFBE00;    }
+
+.font-weight-normal         { font-weight: normal;      }
+.font-weight-light          { font-weight: 200;         }
+.font-weight-extra-bold     { font-weight: 800;         }
+
+.text-left      { text-align: left;   }
+.text-center    { text-align: center; }
+.text-right     { text-align: right;  }
+
+
+ /* Header styles */
+
+ header {
+     /* Background image disappears completely when size & postion are added (both independently and together) */
+    background-image: url('/images/the-sleep-co-4.jpg')
+    background-size: cover;
+    background-position: center;
+ }
+
+ header h3 {
+    font-size: 5.5rem;
+    line-height: 1;
+ }
+
+
